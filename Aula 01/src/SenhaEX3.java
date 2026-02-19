@@ -1,11 +1,19 @@
+import java.util.Scanner;
+
 public class SenhaEX3 {
     public static void main(String[] args) {
 
-        String senha = "oi!1";
+
+        Scanner leitor = new Scanner(System.in);
         String especial = "!@##$%¨&*()_+=-{}][/";
 
         boolean temTamanho = false;
         boolean temEspecial = false;
+
+        System.out.print("Digite sua senha: ");
+        String senha = leitor.nextLine();
+
+
 
         if (senha.length() >=8) {
             temTamanho = true;
