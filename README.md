@@ -42,11 +42,20 @@ Estrutura de Dados/
 │       └── src/
 │           └── MaiorMenor.java     # Extra — Maior e menor de um vetor
 │
-└── Aula 02/                        # Algoritmos com vetores e laços aninhados
+├── Aula 02/                        # Algoritmos com vetores e laços aninhados
+│   ├── README.md
+│   └── src/
+│       ├── ConversorTempoEX1.java  # EX1 — Conversor de segundos para h/min/seg
+│       └── VerificarUnicosEX2.java # EX2 — Verificação de elementos únicos
+│
+└── Aula04/                         # Refatoração e Métodos
     ├── README.md
     └── src/
-        ├── ConversorTempoEX1.java  # EX1 — Conversor de segundos para h/min/seg
-        └── VerificarUnicosEX2.java # EX2 — Verificação de elementos únicos
+        ├── CaixaEletronico.java    # Caixa eletrônico refatorado com métodos
+        ├── ContadordeNotas.java    # Contagem de notas escolares
+        ├── Senha.java              # Validação de senha refatorada
+        ├── Tempo.java              # Conversor de tempo refatorado
+        └── VerificarUnico.java     # Verificação de únicos refatorada
 ```
 
 ---
@@ -74,6 +83,20 @@ Aprofundamento em **algoritmos sobre vetores**, com ênfase em conversão de uni
 |---|---|
 | `ConversorTempoEX1.java` | Converte um total de segundos em horas, minutos e segundos |
 | `VerificarUnicosEX2.java` | Verifica se todos os elementos de um vetor são únicos (sem repetições) |
+
+---
+
+#### Aula 04 — Refatoração e Métodos
+
+Consolidação dos conceitos das aulas anteriores, refatorando os exercícios em **métodos reutilizáveis** e expandindo a compreensão de **organização de código**. Os exercícios são implementações melhoradas das aulas anteriores com separação de responsabilidades e métodos bem estruturados.
+
+| Arquivo | Descrição |
+|---|---|
+| `CaixaEletronico.java` | Refatoração do caixa eletrônico com método separado para cálculo de troco |
+| `ContadordeNotas.java` | Contagem e análise de notas escolares |
+| `Senha.java` | Refatoração da validação de senha em método dedicado |
+| `Tempo.java` | Refatoração do conversor de tempo com métodos separados |
+| `VerificarUnico.java` | Refatoração da verificação de elementos únicos em método |
 
 ---
 
@@ -140,6 +163,15 @@ Estrutura de Dados/
     └── src/
         ├── ConversorTempoEX1.java  # EX1 — Seconds to h/min/sec converter
         └── VerificarUnicosEX2.java # EX2 — Unique element verification
+
+└── Aula04/                         # Refactoring and Methods
+    ├── README.md
+    └── src/
+        ├── CaixaEletronico.java    # Refactored ATM with dedicated methods
+        ├── ContadordeNotas.java    # School grades counting and analysis
+        ├── Senha.java              # Refactored password validation
+        ├── Tempo.java              # Refactored time converter
+        └── VerificarUnico.java     # Refactored unique element verification
 ```
 
 ---
@@ -167,6 +199,20 @@ Deepens work on **array algorithms**, focusing on unit conversion and set proper
 |---|---|
 | `ConversorTempoEX1.java` | Converts a total number of seconds into hours, minutes, and seconds |
 | `VerificarUnicosEX2.java` | Checks whether all elements in an array are unique (no duplicates) |
+
+---
+
+#### Class 04 — Refactoring and Methods
+
+Consolidation of concepts from previous classes, refactoring exercises into **reusable methods** and expanding understanding of **code organization**. The exercises are improved implementations from previous classes with separation of concerns and well-structured methods.
+
+| File | Description |
+|---|---|
+| `CaixaEletronico.java` | Refactored ATM with dedicated method for change calculation |
+| `ContadordeNotas.java` | School grades counting and analysis |
+| `Senha.java` | Refactored password validation in a dedicated method |
+| `Tempo.java` | Refactored time converter with separate methods |
+| `VerificarUnico.java` | Refactored unique element verification in a method |
 
 ---
 
