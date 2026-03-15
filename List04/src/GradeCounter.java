@@ -1,4 +1,4 @@
-public class ContadordeNotas {
+public class GradeCounter {
 
     public static void main(String[] args) {
 

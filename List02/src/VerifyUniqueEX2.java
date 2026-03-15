@@ -1,4 +1,4 @@
-public class VerificarUnicosEX2 {
+public class VerifyUniqueEX2 {
     public static void  main(String[] args) {
         boolean temRepetido = false;
         int[] vetor = {2, 5, 8, 9};

@@ -1,4 +1,4 @@
-public class ConversorTempoEX1 {
+public class TimeConverterEX1 {
     public static void main(String[] args) {
 
         int totalSegundos= 3665;

@@ -1,4 +1,4 @@
-# Aula 01 — Estrutura de Dados | Data Structures — Class 01
+# List 01 — Data Structures
 
 ---
 
@@ -26,7 +26,7 @@ Esta aula apresenta os primeiros exercícios práticos com **vetores (arrays)** 
 
 ### Exercícios
 
-#### Exercício 1 — Notas da Turma (`NotasEX1.java`)
+#### Exercício 1 — Notas da Turma (`GradesEX1.java`)
 
 **Objetivo:** Dado um vetor de notas de 10 alunos, calcular:
 - A **média** da turma;
@@ -40,7 +40,7 @@ Esta aula apresenta os primeiros exercícios práticos com **vetores (arrays)** 
 
 ---
 
-#### Exercício 2 — Caixa Eletrônico (`CaixaEletronicoEX2.java`)
+#### Exercício 2 — Caixa Eletrônico (`AtmEX2.java`)
 
 **Objetivo:** Dado um valor de saque, calcular a menor quantidade de notas de R$ 50, R$ 20 e R$ 10 necessárias para compor o valor.
 
@@ -50,7 +50,7 @@ Esta aula apresenta os primeiros exercícios práticos com **vetores (arrays)** 
 
 ---
 
-#### Exercício 3 — Validação de Senha (`SenhaEX3.java`)
+#### Exercício 3 — Validação de Senha (`PasswordEX3.java`)
 
 **Objetivo:** Verificar se uma senha digitada pelo usuário é válida, considerando:
 - Mínimo de **8 caracteres**;
@@ -63,7 +63,7 @@ Esta aula apresenta os primeiros exercícios práticos com **vetores (arrays)** 
 
 ---
 
-#### Extra — Maior e Menor (`Extras/src/MaiorMenor.java`)
+#### Extra — Maior e Menor (`Extras/src/MaxMin.java`)
 
 **Objetivo:** Encontrar o **maior** e o **menor** valor em um vetor de inteiros.
 
@@ -76,14 +76,14 @@ Esta aula apresenta os primeiros exercícios práticos com **vetores (arrays)** 
 ### Estrutura de Arquivos
 
 ```
-Aula 01/
+List01/
 ├── src/
-│   ├── NotasEX1.java
-│   ├── CaixaEletronicoEX2.java
-│   └── SenhaEX3.java
+│   ├── GradesEX1.java
+│   ├── AtmEX2.java
+│   └── PasswordEX3.java
 └── Extras/
     └── src/
-        └── MaiorMenor.java
+        └── MaxMin.java
 ```
 
 ---
@@ -94,13 +94,13 @@ Aula 01/
 
 ```bash
 # Compilar
-javac src/NotasEX1.java
+javac src/GradesEX1.java
 
 # Executar
-java -cp src NotasEX1
+java -cp src GradesEX1
 ```
 
-> Substitua o nome da classe conforme o exercício desejado. Para `SenhaEX3`, a leitura é interativa via terminal.
+> Substitua o nome da classe conforme o exercício desejado. Para `PasswordEX3`, a leitura é interativa via terminal.
 
 ---
 
@@ -130,7 +130,7 @@ This class introduces the first practical exercises with **arrays** in Java, cov
 
 ### Exercises
 
-#### Exercise 1 — Student Grades (`NotasEX1.java`)
+#### Exercise 1 — Student Grades (`GradesEX1.java`)
 
 **Goal:** Given an array of 10 student grades, compute:
 - The class **average**;
@@ -144,7 +144,7 @@ This class introduces the first practical exercises with **arrays** in Java, cov
 
 ---
 
-#### Exercise 2 — ATM Machine (`CaixaEletronicoEX2.java`)
+#### Exercise 2 — ATM Machine (`AtmEX2.java`)
 
 **Goal:** Given a withdrawal amount, calculate the minimum number of R$ 50, R$ 20, and R$ 10 bills required.
 
@@ -154,7 +154,7 @@ This class introduces the first practical exercises with **arrays** in Java, cov
 
 ---
 
-#### Exercise 3 — Password Validation (`SenhaEX3.java`)
+#### Exercise 3 — Password Validation (`PasswordEX3.java`)
 
 **Goal:** Validate a user-entered password by checking:
 - Minimum length of **8 characters**;
@@ -167,7 +167,7 @@ This class introduces the first practical exercises with **arrays** in Java, cov
 
 ---
 
-#### Extra — Max and Min (`Extras/src/MaiorMenor.java`)
+#### Extra — Max and Min (`Extras/src/MaxMin.java`)
 
 **Goal:** Find the **maximum** and **minimum** values in an integer array.
 
@@ -180,14 +180,14 @@ This class introduces the first practical exercises with **arrays** in Java, cov
 ### File Structure
 
 ```
-Aula 01/
+List01/
 ├── src/
-│   ├── NotasEX1.java
-│   ├── CaixaEletronicoEX2.java
-│   └── SenhaEX3.java
+│   ├── GradesEX1.java
+│   ├── AtmEX2.java
+│   └── PasswordEX3.java
 └── Extras/
     └── src/
-        └── MaiorMenor.java
+        └── MaxMin.java
 ```
 
 ---
@@ -198,13 +198,13 @@ Aula 01/
 
 ```bash
 # Compile
-javac src/NotasEX1.java
+javac src/GradesEX1.java
 
 # Run
-java -cp src NotasEX1
+java -cp src GradesEX1
 ```
 
-> Replace the class name with the desired exercise. `SenhaEX3` requires interactive terminal input.
+> Replace the class name with the desired exercise. `PasswordEX3` requires interactive terminal input.
 
 ---
 

@@ -1,4 +1,4 @@
-public class MaiorMenor{
+public class MaxMin {
     public static void main(String[] args) {
         int[] numeros = {15, 3, 9, 27, 10, 2};
 

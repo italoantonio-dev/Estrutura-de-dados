@@ -1,4 +1,4 @@
-public class NotasEX1 {
+public class GradesEX1 {
 
     public static void main(String[] args) {
 

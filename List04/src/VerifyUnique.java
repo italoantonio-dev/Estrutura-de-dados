@@ -1,4 +1,4 @@
-public class VerificarUnico {
+public class VerifyUnique {
     public static void main(String[] args) {
         int[] vetor = {2, 5, 8, 9};
         boolean resultado = verificarDuplicatas(vetor);

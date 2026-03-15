@@ -1,4 +1,4 @@
-# Aula 02 — Estrutura de Dados | Data Structures — Class 02
+# List 02 — Data Structures
 
 ---
 
@@ -26,7 +26,7 @@ Esta aula aprofunda o trabalho com **vetores** em Java, explorando algoritmos de
 
 ### Exercícios
 
-#### Exercício 1 — Conversor de Tempo (`ConversorTempoEX1.java`)
+#### Exercício 1 — Conversor de Tempo (`TimeConverterEX1.java`)
 
 **Objetivo:** Dado um valor total em segundos, converter e exibir o tempo equivalente em **horas**, **minutos** e **segundos**.
 
@@ -46,7 +46,7 @@ segundos = resto % 60
 
 ---
 
-#### Exercício 2 — Verificar Elementos Únicos (`VerificarUnicosEX2.java`)
+#### Exercício 2 — Verificar Elementos Únicos (`VerifyUniqueEX2.java`)
 
 **Objetivo:** Percorrer um vetor de inteiros e verificar se **todos os elementos são únicos**, isto é, se não há valores repetidos.
 
@@ -66,10 +66,10 @@ segundos = resto % 60
 ### Estrutura de Arquivos
 
 ```
-Aula 02/
+List02/
 └── src/
-    ├── ConversorTempoEX1.java
-    └── VerificarUnicosEX2.java
+    ├── TimeConverterEX1.java
+    └── VerifyUniqueEX2.java
 ```
 
 ---
@@ -80,10 +80,10 @@ Aula 02/
 
 ```bash
 # Compilar
-javac src/ConversorTempoEX1.java
+javac src/TimeConverterEX1.java
 
 # Executar
-java -cp src ConversorTempoEX1
+java -cp src TimeConverterEX1
 ```
 
 > Substitua o nome da classe para executar o outro exercício.
@@ -116,7 +116,7 @@ This class deepens the work with **arrays** in Java, exploring numeric conversio
 
 ### Exercises
 
-#### Exercise 1 — Time Converter (`ConversorTempoEX1.java`)
+#### Exercise 1 — Time Converter (`TimeConverterEX1.java`)
 
 **Goal:** Given a total value in seconds, convert and display the equivalent time in **hours**, **minutes**, and **seconds**.
 
@@ -136,7 +136,7 @@ seconds = rest % 60
 
 ---
 
-#### Exercise 2 — Verify Unique Elements (`VerificarUnicosEX2.java`)
+#### Exercise 2 — Verify Unique Elements (`VerifyUniqueEX2.java`)
 
 **Goal:** Traverse an integer array and verify whether **all elements are unique**, i.e., no duplicated values exist.
 
@@ -156,10 +156,10 @@ seconds = rest % 60
 ### File Structure
 
 ```
-Aula 02/
+List02/
 └── src/
-    ├── ConversorTempoEX1.java
-    └── VerificarUnicosEX2.java
+    ├── TimeConverterEX1.java
+    └── VerifyUniqueEX2.java
 ```
 
 ---
@@ -170,10 +170,10 @@ Aula 02/
 
 ```bash
 # Compile
-javac src/ConversorTempoEX1.java
+javac src/TimeConverterEX1.java
 
 # Run
-java -cp src ConversorTempoEX1
+java -cp src TimeConverterEX1
 ```
 
 > Replace the class name to run the other exercise.

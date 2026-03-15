@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Senha {
+public class PasswordValidator {
     public static void main(String[] args) {
 
 

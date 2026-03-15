@@ -1,4 +1,4 @@
-public class CaixaEletronicoEX2 {
+public class AtmEX2 {
 
     public static void main(String[] args) {
 
